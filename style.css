@@ -1,0 +1,109 @@
+* { margin: 0;
+    padding: 0;
+    
+}
+
+body{ 
+    font-family: "trebuchet ms";
+ }
+a{ 
+    text-decoration: none; color: #000;
+ }
+
+
+h1 {
+    font-size: 70px;
+}
+
+.main {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+ul.menu{
+    text-align: center; /* centraliza na horizontal */
+}
+ul.menu li{
+    display: inline-block; /* centraliza na horizontal */
+    margin: 10px;
+}
+ul.menu li a{
+    background-color: #051625;
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: #fff;
+}
+ul.menu li a:hover{
+    background-color: #263742;
+}
+
+.border {
+    border-right: 2px solid rgba(0, 0, 0, 0.466);
+    border-bottom: 1px solid #000;
+}
+.caixa {
+    max-width: 760px;
+    width: 80%;
+    margin: 10px auto;
+    border: solid rgba(0, 0, 0, 0.459);
+    padding: 10px;
+}
+
+.div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.div2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    
+}
+
+.justifycenter {
+    justify-content: center;
+}
+
+.align {
+    align-items: center;
+}
+
+.textalign {
+    text-align: center;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.paddingtop{
+    padding-top: 10px;
+}
+
+.marginleft {
+    margin-left: 10%;
+}
