@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="65" viewBox="0 0 78 65">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="24.5" cy="24.5" r="24.5" transform="translate(678 608)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="bootstrap" transform="translate(-714 -608)">
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(50)" clip-path="url(#clip-path)">
+      <g id="bootstrap-seeklogo.com" transform="translate(678 608)">
+        <path id="Path_8" data-name="Path 8" d="M0,42.682A6.318,6.318,0,0,0,6.318,49H42.682A6.318,6.318,0,0,0,49,42.682V6.318A6.318,6.318,0,0,0,42.682,0H6.318A6.318,6.318,0,0,0,0,6.318Z" fill="#563d7c"/>
+        <path id="Path_9" data-name="Path 9" d="M20.319,21.674V14.735h6.108a9.51,9.51,0,0,1,1.683.145,4.2,4.2,0,0,1,1.434.519,2.767,2.767,0,0,1,1,1.039,3.449,3.449,0,0,1,.374,1.7,3.139,3.139,0,0,1-1.122,2.7,4.689,4.689,0,0,1-2.867.831ZM13.8,9.666V39.334H28.173a15.168,15.168,0,0,0,3.885-.5A10.391,10.391,0,0,0,35.423,37.3a7.573,7.573,0,0,0,2.348-2.68,8.166,8.166,0,0,0,.873-3.885,8.221,8.221,0,0,0-1.35-4.758A7.131,7.131,0,0,0,33.2,23.212a7.393,7.393,0,0,0,3.013-2.452,6.5,6.5,0,0,0,1.018-3.74,7.958,7.958,0,0,0-.686-3.49,5.7,5.7,0,0,0-1.932-2.265,8.342,8.342,0,0,0-2.992-1.226,18.476,18.476,0,0,0-3.864-.374Zm6.524,24.6V26.12h7.105a5.5,5.5,0,0,1,3.407.977,3.836,3.836,0,0,1,1.288,3.262,4.078,4.078,0,0,1-.395,1.911,3.136,3.136,0,0,1-1.06,1.184,4.487,4.487,0,0,1-1.537.623,8.709,8.709,0,0,1-1.828.187Z" fill="#fff"/>
+      </g>
+    </g>
+    <text id="BOOTSTRAP_5" data-name="BOOTSTRAP 5" transform="translate(714 670)" font-size="12" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">BOOTSTRAP 5</tspan></text>
+  </g>
+</svg>

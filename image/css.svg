@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="65" viewBox="0 0 49 65">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="24.5" cy="24.5" r="24.5" transform="translate(609 608)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="css" transform="translate(-609 -608)">
+    <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+      <g id="css-2" data-name="css" transform="translate(609 608)">
+        <path id="Path_6" data-name="Path 6" d="M3.063,0l3.9,44.1L24.5,49l17.527-4.9L45.938,0Z" fill="#2196f3"/>
+        <path id="Path_7" data-name="Path 7" d="M37.589,14.421l-.493,5.54L35.608,36.569,24.5,39.641l-.009,0-11.1-3.075-.775-8.685h5.439l.4,4.5,6.036,1.629,0,0,6.045-1.629.824-7.506-19.012.052L11.815,19.8l20.007-.236.4-5.494-20.948.058-.352-5.111H38.073Z" fill="#fafafa"/>
+      </g>
+    </g>
+    <text id="CSS3" transform="translate(620 670)" font-size="12" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">CSS3</tspan></text>
+  </g>
+</svg>
