@@ -5,6 +5,9 @@
 
 body{ 
     font-family: "trebuchet ms";
+    background-image: url("image/diego1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
  }
 a{ 
     text-decoration: none; color: #000;
@@ -16,7 +19,7 @@ h1 {
 }
 
 .main {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -30,7 +33,7 @@ ul.menu li{
     margin: 10px;
 }
 ul.menu li a{
-    background-color: #051625;
+    background-color: #2f597e;
     border-radius: 6px;
     padding: 6px 10px;
     color: #fff;
@@ -41,22 +44,26 @@ ul.menu li a:hover{
 
 .border {
     border-right: 2px solid rgba(0, 0, 0, 0.466);
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.329)
 }
 .caixa {
     max-width: 760px;
+    visibility:hidden;
     width: 80%;
+    background-color: white;
     margin: 10px auto;
     border: solid rgba(0, 0, 0, 0.459);
     padding: 10px;
 }
 
 .div {
+    min-width: 204px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .div2 {
@@ -98,12 +105,21 @@ ul.menu li a:hover{
 
 .padding {
     padding: 10px;
+    margin: 5px;
 }
 
 .paddingtop{
-    padding-top: 10px;
+    padding: 15px 0 15px 0;
 }
 
 .marginleft {
     margin-left: 10%;
+}
+
+.marginauto{
+    margin: auto;
+}
+
+.minwidth{
+    min-width: 88px;
 }
