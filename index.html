@@ -8,123 +8,140 @@
 </head>
 
 <body>
+    
+    <script type="text/javascript">
+		document.documentElement.className += ' js';
+    </script>
+    
     <main class="main">
         <h1>Diego Azevedo</h1>
         <p>Estudante de programação</p>
     </main>
-    <header>
+
+    <header class="header">
         <nav>
             <ul class="menu">
-                <li><a href="#">quem sou</a></li>
-                <li><a href="#">Meus Cursos</a></li>
-                <li><a href="#">níveis de conhecimento</a></li>
-                <li><a href="#">portfólio</a></li>
-                <li><a href="#">contato</a></li>
+                <li><a href="#1">quem sou</a></li>
+                <li><a href="#2">Meus Cursos</a></li>
+                <li><a href="#3">níveis de conhecimento</a></li>
+                <li><a href="#4">portfólio</a></li>
+                <li><a href="#5">contato</a></li>
             </ul>    
         </nav>
-        <div class="caixa">
-            <p> Me chamo Diego, tenho 28 anos, moro em Caxias do Sul. Sou estudante de programação web, gosto
-                muito de Design e por isso hoje estou focando meus estudos na área de frontend. Estou sempre
-                buscando conhecimento e sempre aberto a novos desafios.
-            </p>
-            <p><b>Tenho dois objetivos:</b> ingressar em uma faculdade e conseguir um estágio como desenvolvedor Web.</p>
-        </div>
-        <section class="caixa flex wrap justifycenter">
-            <h3 class="textalign">Meus cursos</h3>
-            <div class="flex wrap justifycenter">
-                <div class="div flex border">
-                    <img src="image/udemy.svg"alt="udemy"></imag>
-                    <p>Lógica de programação</p>
-                    <p>Udemy 30h</p>
-                </div>
-                <div class="div flex border">
-                    <img src="image/ifsul.svg"alt="ifsul"></imag>
-                    <p>Programador web</p>
-                    <p>IFSUL 200h</p>
-                </div>
-                <div class="div flex border">
-                    <img src="image/origamid.svg"alt="origamid"></imag>
-                    <p>Web Desing completo</p>
-                    <p>Origamid 22h</p>
-                </div>
-                <div class="div flex border">
-                    <img src="image/origamid.svg"alt="origamid"></imag>
-                    <p>Adobe XD</p>
-                    <p>Origamid 3h</p>
-                </div>
-                <div class="div flex border">
-                    <img src="image/origamid.svg"alt="origamid"></imag>
-                    <p>Bootstrap 4</p>
-                    <p>Origamid 5h</p>
-                </div>
+    </header>
+
+    <section class="caixa" id="1">
+        <p><b>Me chamo Diego, tenho 28 anos, moro em Caxias do Sul. Sou marceneiro de móveis planejados,
+            em paralelo ao trabalho estudo programação.
+            Estou me dedicando pois quero ingressar novamente em uma faculdade e também conseguir
+            um estágio na área. Cursei Desing em 2014, mas
+            na época não tinha muitos recursos e o curso infelizmente foi trancado. Por gostar de Design meu foco e objetivo
+            hoje é a área de atuação frontend.  
+        </b></p>
+    </section>
+
+    <section class="caixa flex wrap justifycenter" id="2">
+        <h3 class="textalign">Meus cursos</h3>
+        <div class="flex wrap justifycenter">
+            <div class="div flex border">
+                <img src="image/udemy.svg"alt="udemy"></imag>
+                <p>Lógica de programação</p>
+                <p>Udemy 30h</p>
             </div>
-        </section>
-        <section class= "caixa">
-            <h3 class="textalign">Níveis de conhecimento</h3>
-            <p class="textalign paddingtop"><b>Básico</b></p>          
-                <div class="div2">                                          
-                    <div class="padding border minwidth textalign">
-                        <img src="image/javascript.svg" alt="javascript">
-                    </div>    
-                    <div class="padding border minwidth textalign">
-                        <img src="image/php.png" alt="php">
-                    </div>                     
-                </div>
-            <p class="textalign paddingtop"><b>Intermediário</b></p>    
-                <div class="div2">                         
-                    <div class="padding border minwidth textalign">
-                        <img src="image/html.svg" alt="html">
-                    </div>    
-                    <div class="padding border minwidth textalign">
-                        <img src="image/css.svg" alt="css">
-                    </div>
-                    <div class="padding border minwidth textalign">   
-                        <img src="image/adobexd.svg" alt="adobexd">
-                    </div>
-                    <div class="padding border minwidth textalign">
-                        <img src="image/bootstrap.svg" alt="bootstrap">
-                    </div>
+            <div class="div flex border">
+                <img src="image/ifsul.svg"alt="ifsul"></imag>
+                <p>Programador web</p>
+                <p>IFSUL 200h</p>
+            </div>
+            <div class="div flex border">
+                <img src="image/origamid.svg"alt="origamid"></imag>
+                <p>Web Desing completo</p>
+                <p>Origamid 22h</p>
+            </div>
+            <div class="div flex border">
+                <img src="image/origamid.svg"alt="origamid"></imag>
+                <p>Adobe XD</p>
+                <p>Origamid 3h</p>
+            </div>
+            <div class="div flex border">
+                <img src="image/origamid.svg"alt="origamid"></imag>
+                <p>Bootstrap 4</p>
+                <p>Origamid 5h</p>
+            </div>
+        </div>
+    </section>
+
+    <section class= "caixa" id="3">
+        <h3 class="textalign">Níveis de conhecimento</h3>
+        <p class="textalign paddingtop"><b>Básico</b></p>          
+            <div class="div2">                                          
+                <div class="padding border minwidth textalign">
+                    <img src="image/javascript.svg" alt="javascript">
                 </div>    
-        </section>
-        <section class="caixa">
-            <h3 class="textalign">Portfólio</h3> 
-            <div class="flex wrap justifycenter">
-                <a href="#" target="_blank">  
-                    <div class="div flex border textalign">
-                            <img src="image/nicetrip1.svg"alt="nicetrip"></imag>
-                            <p>NiceTrip viagens</p>
-                            <p>Site feito com Bootstrap 5</p>
-                    </div>
-                </a>
-                <a href="#" target="_blank"> 
-                    <div class="div flex border textalign">
-                        <img src="image/mysite.svg"alt="mysite"></imag>
-                        <p>Meu primeiro portfólio</p>
-                        <p>Site em HTML5 e CSS3</p>
-                    </div>
-                </a>     
-            </div>      
-        </section>
-        <section class="caixa">
-            <h3 class="textalign">Contato</h3>
+                <div class="padding border minwidth textalign">
+                    <img src="image/php.png" alt="php">
+                </div>                     
+            </div>
+        <p class="textalign paddingtop"><b>Intermediário</b></p>    
             <div class="div2">                         
-                <div class="padding">
-                    <a href="#" target="_blank">
-                        <img src="image/gmail.svg" alt="udemy">
-                    </a>    
+                <div class="padding border minwidth textalign">
+                    <img src="image/html.svg" alt="html">
                 </div>    
-                <div class="padding">
-                    <a href="#" target="_blank">
-                        <img src="image/whats.svg" alt="udemy">
-                    </a>    
+                <div class="padding border minwidth textalign">
+                    <img src="image/css.svg" alt="css">
                 </div>
-                <div class="padding">
-                    <a href="#" target="_blank">
-                        <img src="image/linkedin.svg" alt="udemy">
-                    </a>    
-                </div>           
-            </div>      
-        </section>
-    </header>    
+                <div class="padding border minwidth textalign">   
+                    <img src="image/adobexd.svg" alt="adobexd">
+                </div>
+                <div class="padding border minwidth textalign">
+                    <img src="image/bootstrap.svg" alt="bootstrap">
+                </div>
+            </div>    
+    </section>
+
+    <section class="caixa" id="4">
+        <h3 class="textalign">Portfólio</h3> 
+        <div class="flex wrap justifycenter">
+            <a href="#" target="_blank">  
+                <div class="div flex border textalign">
+                        <img src="image/nicetrip1.svg"alt="nicetrip"></imag>
+                        <p>NiceTrip viagens</p>
+                        <p>Site feito com Bootstrap 5</p>
+                </div>
+            </a>
+            <a href="#" target="_blank"> 
+                <div class="div flex border textalign">
+                    <img src="image/mysite.svg"alt="mysite"></imag>
+                    <p>Meu primeiro portfólio</p>
+                    <p>Site em HTML5 e CSS3</p>
+                </div>
+            </a>     
+        </div>      
+    </section>
+
+    <section class="caixa" id="5">
+        <h3 class="textalign">Contato</h3>
+        <div class="div2">                         
+            <div class="padding">
+                <a href="#" target="_blank">
+                    <img src="image/gmail.svg" alt="udemy">
+                </a>    
+            </div>    
+            <div class="padding">
+                <a href="#" target="_blank">
+                    <img src="image/whats.svg" alt="udemy">
+                </a>    
+            </div>
+            <div class="padding">
+                <a href="#" target="_blank">
+                    <img src="image/linkedin.svg" alt="udemy">
+                </a>    
+            </div>           
+        </div>      
+    </section> 
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+
 </body>
 </html>
