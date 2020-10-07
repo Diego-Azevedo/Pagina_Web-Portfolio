@@ -3,9 +3,11 @@
     
 }
 
-body{ 
-    font-family: "trebuchet ms";
+body{
+    background-image: url("image/tec1.jpg");
+    font-family: 'Barlow', sans-serif;
     line-height: 2.fr
+    
  }
 
 
@@ -18,10 +20,20 @@ h1 {
     font-size: 70px;
 }
 
+p{
+    font-size: 18px;
+}
+
+img{
+    max-width: 100%
+    
+}
+
 .main {
     margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
+    color: white;
 }
 
 
@@ -33,13 +45,13 @@ ul.menu li{
     margin: 10px;
 }
 ul.menu li a{
-    background-color: #2f597eb2;
+    background-color: #26374252;
     border-radius: 6px;
     padding: 6px 10px;
     color: #fff;
 }
 ul.menu li a:hover{
-    background-color: #2637426c;
+    background-color: #24394298;
 }
 
 .border {
@@ -53,7 +65,8 @@ ul.menu li a:hover{
     width: 80%;
     background-color: rgba(255, 255, 255, 0.384);
     margin: 10px auto;
-    border: solid rgba(0, 0, 0, 0.459);
+    border: solid rgba(32,161,149);
+    border-radius: 5px;
     padding: 10px;
     
 }
@@ -112,7 +125,7 @@ ul.menu li a:hover{
 }
 
 .paddingtop{
-    padding: 15px 0 15px 0;
+    padding: 15px 0 5px 0;
 }
 
 .marginleft {
